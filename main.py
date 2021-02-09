@@ -5,7 +5,7 @@ import aiohttp
 import aiofiles
 import time
 import json
-import os
+import os,
 from PIL import Image
 from PIL import ImageFont
 from PIL import ImageDraw
@@ -26,7 +26,7 @@ app = Client(
 def kwairi(message):
     query = ""
     for i in message.command[1:]:
-        query += f"{i} "
+     query += f"{i} "
     return query
 
 
@@ -50,7 +50,7 @@ blacks = []
 # Global vars
 s = None
 m = None
-current_player = None
+    current_player = None
 
 
 # Ping and repo
