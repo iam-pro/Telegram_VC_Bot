@@ -5,7 +5,7 @@ import aiohttp
 import aiofiles
 import time
 import json
-import os,,
+import os
 from PIL import Image
 from PIL import ImageFont
 from PIL import ImageDraw
